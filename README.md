@@ -1,5 +1,6 @@
 # Project5: Chicago Car Accidents Data 2019
 
+
 ### Overview
 - Discussion of how to structure the data and use of like term assignments
 - Consider types of classifiers relevant and applicable
@@ -15,7 +16,24 @@ Using these contributing factors to make recommendations for local drivers and l
 for self-driving car companies.
 
 ### Data Dictionary
-
+|Feature|Description|
+|---|---|
+|SEVERE_INJURY|Whether there was a severe injury sustained by any person involved in the crash or not|
+|RD_NO|Chicago Police Department report number|
+|POSTED_SPEED_LIMIT|Posted speed limit, as determined by reporting officer|
+|NUM_UNITS|Number of units involved in the crash. A unit can be a motor vehicle, a pedestrian, a bicyclist, or another non-passenger roadway user|
+|CRASH_HOUR|The hour of the day component of CRASH_DATE|
+|CRASH_DAY_OF_WEEK|The day of the week component of CRASH_DATE (Sun=1, Mon=2, Tue=3, Wed=4, Thu=5, Fri=6, Sat=7)|
+|CRASH_MONTH|The month component of CRASH_DATE|
+|DEVICE_CONDITION|Condition of traffic control device, as determined by reporting officer|
+|LIGHTING_CONDITION|Light condition at time of crash, as determined by reporting officer|
+|FIRST_CRASH_TYPE|Type of first collision in crash|
+|TRAFFICWAY_TYPE|Trafficway type, as determined by reporting officer|
+|ALIGNMENT|Street alignment at crash location, as determined by reporting officer|
+|ROADWAY_SURFACE_COND|Road surface condition, as determined by reporting officer|
+|ROAD_DEFECT|Road defects, as determined by reporting officer|
+|CRASH_TYPE|A general severity classification for the crash. Can be either Injury and/or Tow Due to Crash or No Injury / Drive Away|
+|PRIM_CONTRIBUTORY_CAUSE|The factor which was most significant in causing the crash, as determined by officer judgment|
 
 
 ### Brief Summary of Analysis
